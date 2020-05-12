@@ -5,3 +5,10 @@ def square_array(array)
   end
   new_array
 end
+
+def square_array_with_map(array)
+  array.map do |n|
+    n**2
+  end
+end
+
